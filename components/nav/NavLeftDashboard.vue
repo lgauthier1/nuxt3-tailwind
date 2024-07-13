@@ -104,7 +104,7 @@ const navigation = ref([
   { name: 'Dashboard', href: '/', current: false, icon: 'uil:home' },
   { name: 'About', href: '/about', current: false, icon: 'simple-icons:apachehadoop' },
   { name: 'Projects', href: '/overflow', current: false, icon: 'uil:github' },
-  { name: '404', href: '/not', current: false, icon: 'uil:github' },
+  { name: 'exemple', href: '/exemple', current: false, icon: 'ci:file-pdf' },
 ])
 
 const teams = []/* [
