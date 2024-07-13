@@ -4,7 +4,7 @@
     <NavLeftDashboard class="w-72 bg-gray-200" />
     <div class="flex-grow">
       <NavTop :title="title" />
-      <RouterView  class="p-4 border bg-red-200" />
+      <RouterView class="p-4 border bg-red-200" />
     </div>
   </div>
 </template>

@@ -2,12 +2,18 @@
 <template>
   <layout name="pdf">
     <template #header>
-      <h1 class="text-4xl font-bold">Quittance de Loyer</h1>
-      <p class="text-lg">Document Officiel</p>
+      <h1 class="text-4xl font-bold">
+        Quittance de Loyer
+      </h1>
+      <p class="text-lg">
+        Document Officiel
+      </p>
     </template>
 
     <section>
-      <h2 class="text-2xl font-bold mb-4">Quittance de Loyer</h2>
+      <h2 class="text-2xl font-bold mb-4">
+        Quittance de Loyer
+      </h2>
       <p class="mb-4">
         Je soussigné, <strong>[Nom du propriétaire]</strong>, propriétaire du logement situé à
         <strong>[Adresse du logement]</strong>, certifie avoir reçu de <strong>[Nom du locataire]</strong> la somme de
@@ -26,14 +32,16 @@
     </section>
 
     <template #footer>
-      <p class="text-sm">Document généré le {{ new Date().toLocaleDateString() }}</p>
+      <p class="text-sm">
+        Document généré le {{ new Date().toLocaleDateString() }}
+      </p>
     </template>
   </layout>
 </template>
 
 <script setup>
 definePageMeta({
-  layout: 'pdf'
+  layout: 'pdf',
 })
 </script>
 
