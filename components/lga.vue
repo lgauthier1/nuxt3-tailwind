@@ -1,4 +1,4 @@
 <template>
-    <div> Test composants </div>
-    <slot />
+	<div> Test composants </div>
+	<slot />
 </template>

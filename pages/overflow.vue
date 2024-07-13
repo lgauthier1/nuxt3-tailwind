@@ -1,12 +1,12 @@
 <template>
-    <h1> Overflow test</h1>
-    <div class="p-16">
-        <timeLine/>
-    </div>
+	<h1> Overflow test</h1>
+	<div class="p-16">
+		<timeLine />
+	</div>
 </template>
 
-  <script setup>
+<script setup>
 definePageMeta({
-  title: 'Overflow'
-});
+	title: 'Overflow',
+})
 </script>

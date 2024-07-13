@@ -1,7 +1,6 @@
 <template>
-    <div>
-      <div> Custom... </div>
-      <slot />
-    </div>
-  </template>
-  
+	<div>
+		<div> Custom... </div>
+		<slot />
+	</div>
+</template>
