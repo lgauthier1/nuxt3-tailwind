@@ -9,14 +9,14 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue'
+// import { defineProps } from 'vue'
 
-const props = defineProps({
-  title: {
-    type: String,
-    required: true,
-  },
-})
+// const props = defineProps({
+//   title: {
+//     type: String,
+//     required: true,
+//   },
+// })
 </script>
 
 <style scoped>

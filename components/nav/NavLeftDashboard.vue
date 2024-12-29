@@ -102,8 +102,8 @@ const route = useRoute()
 
 const navigation = ref([
   { name: 'Dashboard', href: '/', current: false, icon: 'uil:home' },
-  { name: 'About', href: '/about', current: false, icon: 'simple-icons:apachehadoop' },
-  { name: 'Projects', href: '/overflow', current: false, icon: 'uil:github' },
+  { name: 'About', href: '/about-page', current: false, icon: 'simple-icons:apachehadoop' },
+  { name: 'Projects', href: '/overflow-page', current: false, icon: 'uil:github' },
   { name: 'exemple', href: '/exemple', current: false, icon: 'ci:file-pdf' },
 ])
 
@@ -117,6 +117,4 @@ watchEffect(() => {
     item.current = route.path === item.href
   })
 })
-
-const sidebarOpen = ref(false)
 </script>

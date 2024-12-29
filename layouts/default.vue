@@ -1,10 +1,10 @@
 <!-- layouts/default.vue -->
 <template>
   <div class="flex h-screen">
-    <NavLeftDashboard class="w-72 bg-gray-200" />
+    <NavLeftDashboard class="w-72" />
     <div class="flex-grow">
       <NavTop :title="title" />
-      <RouterView class="p-4 border bg-red-200" />
+      <RouterView class="p-4" />
     </div>
   </div>
 </template>
